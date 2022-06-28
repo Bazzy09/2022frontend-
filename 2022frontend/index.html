@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022 frontend developer crash course</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+    <div class="container">
+        <class="logo" href="#">Remember<span>That</span><a>
+
+        <nav>
+                
+           <ul class="primary-nav">
+               <li class="current"><a href="#">Home</a></li>
+               <li><a href="#">Features</a></li>
+               <li><a href="#">Pricing</a></li>
+           </ul>
+
+            <ul class="secondary-nav">
+               <li><a href="#">contact</a></li>
+               <li class="Go premium-cta"><a href="#">Go premium</a></li>
+           </ul>
+        </nav>
+    </div>
+  </div>
+  <section class="hero">
+
+       <div class="container">
+            <div class="leftt-col">
+                <p class="subhead">it's Nitty &amp; Gritty</p>
+                <h1>A Task App that does'nt Sink</h1>
+                
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta" try for free>
+                    <a href="#" class="watch-video-cta">
+                        <img src="images/watch video.jpg" alt"watch a video"> watch a video
+                        
+                    </a>
+                </div>
+           </div>
+           <img src="images/Capture.jpg" class="hero-img" alt="Capture">
+      </div>
+  </section>
+  <section class="features-section">
+      <div class="container">
+          <ul>
+              <li>Unlimited Task</li>
+              <li>Sms Task Reminders</li>
+              <li>Confetti Explosons Upon Task Completion</li>
+              <li>Social media Announcements</li>
+              <li>Real Time Collaboration</li>
+              <li>Other Awesome Features</li>
+          </ul>
+
+          <img src="images/man holding phone.jpg" alt="man holding phone">
+
+      </div>
+  </section>
+  <section class="testimonials-section">
+      <div class="container">
+           <ui>
+              <li>
+                  <img src="Images/akoke.jpg" alt="akoke">
+                  <blockquot>"thank for been a geat brother and a wonderful friend,thank you for the push</blockquote>
+                  <cite>-joshua nathaniel></cite>
+                </li>
+                <li>
+                  <img src="Images/josh.jpg" alt="josh">
+                  <blockquot>"it might be slow, butwith consistency and prayers you will surely be there soon</blockquote>
+                  <cite>-joshua nathaniel></cite>
+                </li>
+                <li>
+                   <img src="Images/daniel.jpg" alt="daniel">
+                   <blockquot>"odogwu, sir dan thank for the push, be sure this boy won't disappoint</blockquote>
+                   <cite>-joshua nathaniel></cite>
+                 </li>
+          </ui>
+
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="container-left">
+                <h2>contact</h2>
+
+
+                <form action="">
+                    <label for="name" >name</label>
+                    <input type="text" id="name" name="name">
+                
+                    
+                    <label for="message">Message</label> 
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                    <input type="submit" class="send-messae-cta" value="send message">
+                </form>
+
+            </div>
+
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15736.376885770578!2d8.28648005!3d9.5871465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105245726d0177cf%3A0x98f062e21d0ba8e4!2sKafanchan!5e0!3m2!1sen!2sng!4v1654926199871!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav =document.querySelector('nav')
+              mobileBtnExit =document.getElementById('mobile-exit');
+        mobileBtn.addEventListener('click', () => {
+            nav.classlist.add('menu-btn');
+
+        })
+        
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classlist.remove('menu-btn');
+
+        })
+        
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html> 
